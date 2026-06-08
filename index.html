@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Especialistas em manutenção preditiva para equipamentos móveis. Extendemos a vida útil dos seus equipamentos e reduzimos custos operacionais.">
+    <meta name="keywords" content="manutenção preditiva, equipamentos móveis, manutenção industrial, monitoramento, sensores, IoT">
+    <title>PredTech - Manutenção Preditiva para Equipamentos Móveis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <a href="#" class="logo">
+                    <span class="logo-icon">⚙️</span>
+                    <span class="logo-text">PredTech</span>
+                </a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#manutencao-preditiva" class="nav-link">Manutenção Preditiva</a></li>
+                <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                <li><a href="#contato" class="nav-link btn-primary">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                Manutenção Preditiva para<br>
+                <span class="highlight">Equipamentos Móveis</span>
+            </h1>
+            <p class="hero-subtitle">
+                Antecipe falhas, reduza custos e maximize a vida útil dos seus equipamentos com nossa tecnologia de ponta em monitoramento e análise preditiva.
+            </p>
+            <div class="hero-cta">
+                <a href="#servicos" class="btn btn-primary btn-lg">Conheça Nossos Serviços</a>
+                <a href="#manutencao-preditiva" class="btn btn-outline btn-lg">Saiba Mais</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">+500</span>
+                    <span class="stat-label">Equipamentos Monitorados</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">-40%</span>
+                    <span class="stat-label">Redução de Custos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">+95%</span>
+                    <span class="stat-label">Disponibilidade</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre a Empresa -->
+    <section id="sobre" class="about section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sobre Nós</span>
+                <h2 class="section-title">Liderança em Manutenção Preditiva</h2>
+                <p class="section-subtitle">
+                    Somos especialistas em transformar a gestão de ativos móveis através de tecnologia e expertise técnica.
+                </p>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Nossa Missão</h3>
+                    <p>
+                        Proporcionar soluções inovadoras em manutenção preditiva que permitam aos nossos clientes maximizar a eficiência operacional de seus equipamentos móveis, reduzindo custos não planejados e aumentando a competitividade no mercado.
+                    </p>
+                    
+                    <h3>Nossa Visão</h3>
+                    <p>
+                        Ser referência nacional em manutenção preditiva para equipamentos móveis até 2030, reconhecidos pela excelência técnica, inovação tecnológica e resultados comprovados para nossos parceiros.
+                    </p>
+                    
+                    <h3>Nossos Valores</h3>
+                    <ul class="values-list">
+                        <li>
+                            <span class="value-icon">🎯</span>
+                            <div>
+                                <strong>Excelência Técnica</strong>
+                                <p>Compromisso com a qualidade e precisão em cada análise</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="value-icon">💡</span>
+                            <div>
+                                <strong>Inovação Contínua</strong>
+                                <p>Busca constante por novas tecnologias e metodologias</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="value-icon">🤝</span>
+                            <div>
+                                <strong>Parceria Transparente</strong>
+                                <p>Relacionamento baseado em confiança e resultados</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="value-icon">📊</span>
+                            <div>
+                                <strong>Data-Driven</strong>
+                                <p>Decisões fundamentadas em dados e evidências técnicas</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <div class="placeholder-icon">🔧</div>
+                        <p>Especialistas em campo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O Que é Manutenção Preditiva -->
+    <section id="manutencao-preditiva" class="predictive section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conceito</span>
+                <h2 class="section-title">O Que é Manutenção Preditiva?</h2>
+                <p class="section-subtitle">
+                    Uma abordagem proativa que transforma a gestão de manutenção dos seus equipamentos.
+                </p>
+            </div>
+            
+            <div class="predictive-content">
+                <div class="predictive-info">
+                    <p class="lead">
+                        A <strong>manutenção preditiva</strong> é uma estratégia de manutenção baseada na condição real dos equipamentos, utilizando monitoramento contínuo e análise de dados para prever falhas antes que elas ocorram.
+                    </p>
+                    
+                    <div class="info-cards">
+                        <div class="info-card">
+                            <div class="card-icon">📡</div>
+                            <h3>Monitoramento Contínuo</h3>
+                            <p>
+                                Sensores IoT coletam dados em tempo real sobre vibração, temperatura, pressão, óleo e outros parâmetros críticos dos equipamentos.
+                            </p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="card-icon">🤖</div>
+                            <h3>Análise Inteligente</h3>
+                            <p>
+                                Algoritmos de IA e machine learning processam os dados para identificar padrões e anomalias que indicam desgaste ou falha iminente.
+                            </p>
+                        </div>
+                        
+                        <div class="info-card">
+                            <div class="card-icon">⚡</div>
+                            <h3>Ação Proativa</h3>
+                            <p>
+                                Alertas automáticos permitem intervenções planejadas no momento ideal, evitando paradas não programadas e danos maiores.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="benefits-section">
+                        <h3>Benefícios Financeiros e Operacionais</h3>
+                        <div class="benefits-grid">
+                            <div class="benefit-item">
+                                <span class="benefit-icon">💰</span>
+                                <div>
+                                    <h4>Redução de Custos</h4>
+                                    <p>Até 40% de redução nos custos de manutenção comparado à manutenção corretiva tradicional.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item">
+                                <span class="benefit-icon">📈</span>
+                                <div>
+                                    <h4>Extensão da Vida Útil</h4>
+                                    <p>Aumente em até 50% a vida útil dos seus equipamentos com intervenções no timing correto.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item">
+                                <span class="benefit-icon">⏱️</span>
+                                <div>
+                                    <h4>Menos Tempo de Inatividade</h4>
+                                    <p>Reduza em até 70% as paradas não programadas, maximizando a disponibilidade operacional.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="benefit-item">
+                                <span class="benefit-icon">🛡️</span>
+                                <div>
+                                    <h4>Maior Segurança</h4>
+                                    <p>Previna acidentes e falhas catastróficas que podem colocar vidas em risco.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="comparison-table">
+                        <h3>Comparativo: Tipos de Manutenção</h3>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Característica</th>
+                                    <th>Corretiva</th>
+                                    <th>Preventiva</th>
+                                    <th class="highlight-col">Preditiva</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Quando ocorre</td>
+                                    <td>Após a falha</td>
+                                    <td>Em intervalos fixos</td>
+                                    <td class="highlight-col">Baseada na condição real</td>
+                                </tr>
+                                <tr>
+                                    <td>Custo</td>
+                                    <td>Alto (emergencial)</td>
+                                    <td>Médio</td>
+                                    <td class="highlight-col">Baixo (otimizado)</td>
+                                </tr>
+                                <tr>
+                                    <td>Tempo de parada</td>
+                                    <td>Imprevisível</td>
+                                    <td>Programado (às vezes desnecessário)</td>
+                                    <td class="highlight-col">Mínimo e planejado</td>
+                                </tr>
+                                <tr>
+                                    <td>Vida útil do equipamento</td>
+                                    <td>Reduzida</td>
+                                    <td>Normal</td>
+                                    <td class="highlight-col">Maximizada</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfólio de Serviços -->
+    <section id="servicos" class="services section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nossos Serviços</span>
+                <h2 class="section-title">Soluções Completas em Manutenção Preditiva</h2>
+                <p class="section-subtitle">
+                    Oferecemos um portfólio abrangente de serviços para atender todas as suas necessidades em monitoramento e análise de equipamentos móveis.
+                </p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Serviço 1 -->
+                <div class="service-card featured">
+                    <div class="service-badge">Mais Popular</div>
+                    <div class="service-icon">🎯</div>
+                    <h3>Monitoramento Contínuo 24/7</h3>
+                    <p class="service-desc">
+                        Implementação de sensores IoT e sistema de monitoramento em tempo real para acompanhamento constante da saúde dos seus equipamentos.
+                    </p>
+                    <ul class="service-features">
+                        <li>✓ Sensores de vibração, temperatura e pressão</li>
+                        <li>✓ Dashboard em tempo real</li>
+                        <li>✓ Alertas automáticos via SMS e e-mail</li>
+                        <li>✓ Acesso móvel 24 horas</li>
+                        <li>✓ Histórico completo de dados</li>
+                    </ul>
+                    <div class="service-value">
+                        <span>Ideal para frotas críticas</span>
+                    </div>
+                    <a href="#contato" class="btn btn-primary btn-block">Solicitar Orçamento</a>
+                </div>
+                
+                <!-- Serviço 2 -->
+                <div class="service-card">
+                    <div class="service-icon">📊</div>
+                    <h3>Análise de Óleo Lubrificante</h3>
+                    <p class="service-desc">
+                        Análise laboratorial periódica de óleos lubrificantes para detectar contaminação, desgaste de componentes e degradação do lubrificante.
+                    </p>
+                    <ul class="service-features">
+                        <li>✓ Coleta programada de amostras</li>
+                        <li>✓ Análise espectrométrica</li>
+                        <li>✓ Detecção de metais de desgaste</li>
+                        <li>✓ Relatório técnico detalhado</li>
+                        <li>✓ Recomendações de ação</li>
+                    </ul>
+                    <div class="service-value">
+                        <span>Essencial para motores e transmissões</span>
+                    </div>
+                    <a href="#contato" class="btn btn-outline btn-block">Saiba Mais</a>
+                </div>
+                
+                <!-- Serviço 3 -->
+                <div class="service-card">
+                    <div class="service-icon">〰️</div>
+                    <h3>Análise de Vibração</h3>
+                    <p class="service-desc">
+                        Monitoramento e análise de vibração para identificar desbalanceamentos, desalinhamentos, folgas e defeitos em rolamentos e engrenagens.
+                    </p>
+                    <ul class="service-features">
+                        <li>✓ Coleta de dados de vibração</li>
+                        <li>✓ Análise espectral avançada</li>
+                        <li>✓ Diagnóstico de falhas incipientes</li>
+                        <li>✓ Tendência e evolução de defeitos</li>
+                        <li>✓ Laudo técnico especializado</li>
+                    </ul>
+                    <div class="service-value">
+                        <span>Perfeito para componentes rotativos</span>
+                    </div>
+                    <a href="#contato" class="btn btn-outline btn-block">Saiba Mais</a>
+                </div>
+                
+                <!-- Serviço 4 -->
+                <div class="service-card">
+                    <div class="service-icon">🌡️</div>
+                    <h3>Termografia Infravermelha</h3>
+                    <p class="service-desc">
+                        Inspeção termográfica para detecção de pontos de superaquecimento em sistemas elétricos, mecânicos e hidráulicos.
+                    </p>
+                    <ul class="service-features">
+                        <li>✓ Câmeras termográficas de alta precisão</li>
+                        <li>✓ Mapeamento térmico completo</li>
+                        <li>✓ Identificação de anomalias térmicas</li>
+                        <li>✓ Relatório com imagens termográficas</li>
+                        <li>✓ Priorização de intervenções</li>
+                    </ul>
+                    <div class="service-value">
+                        <span>Ideal para sistemas elétricos e hidráulicos</span>
+                    </div>
+                    <a href="#contato" class="btn btn-outline btn-block">Saiba Mais</a>
+                </div>
+                
+                <!-- Serviço 5 -->
+                <div class="service-card">
+                    <div class="service-icon">🧠</div>
+                    <h3>Consultoria Técnica Especializada</h3>
+                    <p class="service-desc">
+                        Assessoria completa para implementação de programas de manutenção preditiva, treinamento de equipes e otimização de processos.
+                    </p>
+                    <ul class="service-features">
+                        <li>✓ Diagnóstico inicial da operação</li>
+                        <li>✓ Plano de implementação personalizado</li>
+                        <li>✓ Treinamento de equipes técnicas</li>
+                        <li>✓ Definição de KPIs e metas</li>
+                        <li>✓ Acompanhamento e melhoria contínua</li>
+                    </ul>
+                    <div class="service-value">
+                        <span>Para quem quer começar do zero</span>
+                    </div>
+                    <a href="#contato" class="btn btn-outline btn-block">Saiba Mais</a>
+                </div>
+                
+                <!-- Serviço 6 -->
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Plataforma de Gestão de Ativos</h3>
+                    <p class="service-desc">
+                        Software integrado para gerenciamento de todos os dados de manutenção, histórico de intervenções e planejamento de atividades.
+                    </p>
+                    <ul class="service-features">
+                        <li>✓ Centralização de dados</li>
+                        <li>✓ Gestão de ordens de serviço</li>
+                        <li>✓ Relatórios gerenciais personalizados</li>
+                        <li>✓ Integração com ERP</li>
+                        <li>✓ Aplicativo mobile para técnicos</li>
+                    </ul>
+                    <div class="service-value">
+                        <span>Controle total da sua manutenção</span>
+                    </div>
+                    <a href="#contato" class="btn btn-outline btn-block">Saiba Mais</a>
+                </div>
+            </div>
+            
+            <div class="services-cta">
+                <h3>Não encontrou o que precisa?</h3>
+                <p>Desenvolvemos soluções personalizadas para atender às necessidades específicas do seu negócio.</p>
+                <a href="#contato" class="btn btn-primary btn-lg">Fale Conosco</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="differentiators section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Por Que Nos Escolher</span>
+                <h2 class="section-title">Diferenciais PredTech</h2>
+            </div>
+            
+            <div class="differentiators-grid">
+                <div class="diff-item">
+                    <div class="diff-number">01</div>
+                    <h3>Tecnologia de Ponta</h3>
+                    <p>Utilizamos os mais avançados sensores IoT, softwares de análise e ferramentas de diagnóstico do mercado.</p>
+                </div>
+                
+                <div class="diff-item">
+                    <div class="diff-number">02</div>
+                    <h3>Equipe Certificada</h3>
+                    <p>Profissionais com certificações internacionais em manutenção preditiva e anos de experiência em campo.</p>
+                </div>
+                
+                <div class="diff-item">
+                    <div class="diff-number">03</div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Cada cliente recebe uma solução customizada, adequada ao seu tipo de equipamento e operação.</p>
+                </div>
+                
+                <div class="diff-item">
+                    <div class="diff-number">04</div>
+                    <h3>Resultados Comprovados</h3>
+                    <p>Cases de sucesso com redução média de 40% nos custos de manutenção de nossos clientes.</p>
+                </div>
+                
+                <div class="diff-item">
+                    <div class="diff-number">05</div>
+                    <h3>Suporte Técnico Ágil</h3>
+                    <p>Equipe de suporte disponível para atendimento emergencial e orientação técnica especializada.</p>
+                </div>
+                
+                <div class="diff-item">
+                    <div class="diff-number">06</div>
+                    <h3>Relatórios Detalhados</h3>
+                    <p>Documentação técnica completa com análises, tendências e recomendações acionáveis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Pronto para Transformar Sua Manutenção?</h2>
+                <p>Agende uma consultoria gratuita e descubra como a manutenção preditiva pode reduzir seus custos e aumentar a disponibilidade dos seus equipamentos.</p>
+                <div class="cta-buttons">
+                    <a href="#contato" class="btn btn-white btn-lg">Solicitar Consultoria Gratuita</a>
+                    <a href="tel:+5511999999999" class="btn btn-outline-light btn-lg">
+                        <span class="btn-icon">📞</span>
+                        (11) 99999-9999
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Contato</span>
+                <h2 class="section-title">Entre em Contato</h2>
+                <p class="section-subtitle">
+                    Estamos prontos para atender você e entender suas necessidades.
+                </p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>Av. das Indústrias, 1000 - Distrito Industrial<br>São Paulo - SP, 00000-000</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>contato@predtech.com.br<br>comercial@predtech.com.br</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(11) 99999-9999<br>(11) 3333-3333</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h4>Siga-nos</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon" aria-label="LinkedIn">💼</a>
+                            <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                            <a href="#" class="social-icon" aria-label="Facebook">📘</a>
+                            <a href="#" class="social-icon" aria-label="YouTube">▶️</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo *</label>
+                            <input type="text" id="name" name="name" required placeholder="Seu nome">
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail *</label>
+                                <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Telefone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">Empresa</label>
+                            <input type="text" id="company" name="company" placeholder="Nome da sua empresa">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Serviço de Interesse</label>
+                            <select id="service" name="service">
+                                <option value="">Selecione um serviço</option>
+                                <option value="monitoramento">Monitoramento Contínuo 24/7</option>
+                                <option value="oleo">Análise de Óleo Lubrificante</option>
+                                <option value="vibracao">Análise de Vibração</option>
+                                <option value="termografia">Termografia Infravermelha</option>
+                                <option value="consultoria">Consultoria Técnica</option>
+                                <option value="plataforma">Plataforma de Gestão</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensagem *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Como podemos ajudar você?"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg btn-block">Enviar Mensagem</button>
+                        
+                        <p class="form-note">
+                            🔒 Seus dados estão seguros. Não enviamos spam.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="logo-icon">⚙️</span>
+                        <span class="logo-text">PredTech</span>
+                    </div>
+                    <p>
+                        Especialistas em manutenção preditiva para equipamentos móveis. Tecnologia e expertise para maximizar a vida útil dos seus ativos.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#manutencao-preditiva">Manutenção Preditiva</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Nossos Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Monitoramento 24/7</a></li>
+                        <li><a href="#servicos">Análise de Óleo</a></li>
+                        <li><a href="#servicos">Análise de Vibração</a></li>
+                        <li><a href="#servicos">Termografia</a></li>
+                        <li><a href="#servicos">Consultoria</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <p>📍 São Paulo - SP</p>
+                    <p>📞 (11) 99999-9999</p>
+                    <p>✉️ contato@predtech.com.br</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 PredTech - Manutenção Preditiva. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
